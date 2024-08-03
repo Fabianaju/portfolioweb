@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- *******  Link To Custom CSS Style Sheet  ******* -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- *******  Font Awesome Icons Link  ******* -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <!-- *******  Link To Google Fonts  *******  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Site de Portfólio com Barra de Navegação Fixa</title>
+</head>
+<body>
+    <section class="homeSection">
+        <!--  *****   Navbar Starts   *****  -->
+        <nav class="navBar">
+            <div class="logo">
+                <h1>Fabi</h1>
+            </div>
+            <ul class="navList">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <!--  *****   Navbar Ends   *****  -->
+
+        <!--  *****   Banner Starts   *****  -->
+        <div class="banner">
+            <div class="info">
+                <h3>Olá!</h3>
+                <h1>Eu sou Fabi</h1>
+                <h2>Desenvolvedora <span>Web</span> Profissional</h2>
+                <p>Sou um webdesigner apaixonado pelo que faço, com uma dedicação profunda para transformar ideias em experiências digitais incríveis. Desde o início da minha carreira, sempre busquei unir criatividade e funcionalidade, criando sites que não apenas encantem visualmente, mas que também proporcionem uma navegação intuitiva e eficiente.</p>
+                <div class="socialMedia">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="myImage.png" alt="Minha Imagem">
+            </div>
+        </div>
+        <!--  *****   Banner Ends   *****  -->
+    </section>
+
+    <!-- ***** About Section Starts ***** -->
+<section class="aboutSection">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou um webdesigner apaixonado pelo que faço, com uma dedicação profunda para transformar ideias em experiências digitais incríveis. Desde o início da minha carreira, sempre busquei unir criatividade e funcionalidade, criando sites que não apenas encantem visualmente, mas que também proporcionem uma navegação intuitiva e eficiente.
+
+Minha jornada começou com um interesse genuíno por design e tecnologia. Ao longo dos anos, refinei minhas habilidades em HTML, CSS, JavaScript e outras tecnologias web, sempre me atualizando com as últimas tendências e melhores práticas do mercado. Adoro a oportunidade de trabalhar em diferentes projetos, seja para pequenas empresas, startups ou grandes corporações, adaptando meu estilo e abordagem para atender às necessidades específicas de cada cliente.</p>
+        <div class="aboutImage">
+            <img src="aboutImage.jpg" alt="Imagem Sobre">
+        </div>
+    </div>
+</section>
+<!-- ***** About Section Ends ***** -->
+
+<!-- ***** Services Section Starts ***** -->
+<section class="servicesSection">
+    <div class="container">
+        <h2>Serviços</h2>
+        <div class="serviceItem">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Desenvolvimento Web</h3>
+            <p>Criação de sites modernos e responsivos para seu negócio.</p>
+        </div>
+        <div class="serviceItem">
+            <i class="fa-solid fa-pencil-ruler"></i>
+            <h3>Design Gráfico</h3>
+            <p>Designs criativos e personalizados para sua marca.</p>
+        </div>
+        <div class="serviceItem">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Marketing Digital</h3>
+            <p>Estratégias de marketing para aumentar sua presença online.</p>
+        </div>
+    </div>
+</section>
+<!-- ***** Services Section Ends ***** -->
+
+    <!-- ***** Portfolio Section Starts ***** -->
+    <section class="portfolioSection">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolioGrid">
+                <div class="portfolioItem">
+                    <img src="portfolio1.png" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do Projeto 1</p>
+                </div>
+                <div class="portfolioItem">
+                    <img src="portfolio2.png" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do Projeto 2</p>
+                </div>
+                <div class="portfolioItem">
+                    <img src="portfolio3.png" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do Projeto 3</p>
+                </div>
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Portfolio Section Ends ***** -->
+
+    <!-- ***** Contact Section Starts ***** -->
+    <section class="contactSection">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <div class="formGroup">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="formGroup">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="formGroup">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!-- ***** Contact Section Ends ***** -->
+
+    <!-- ***** Footer Section Starts ***** -->
+    <footer class="footerSection">
+        <div class="container">
+            <div class="footerContent">
+                <div class="footerLogo">
+                    <h2>Fabi</h2>
+                </div>
+                <ul class="footerLinks">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div class="footerSocialMedia">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="footerCopy">© 2024 Fabi. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- ***** Footer Section Ends ***** -->
+
+    <script type="text/javascript">
+        var homeSection = document.querySelector('.homeSection');
+        window.addEventListener('scroll', scrollFunction);
+
+        function scrollFunction(){
+            if(window.scrollY > 50){
+                homeSection.classList.add('active');
+            }
+            else{
+                homeSection.classList.remove('active');
+            }
+        }
+    </script>
+</body>
+</html>
